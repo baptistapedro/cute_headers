@@ -1,6 +1,6 @@
 image: pedbap/cute_headers_fuzz
 duration: 87000
-project: cute_headers
+project: cute-headers
 target: fuzzers
 cmds:
   - cmd: /loadpng_fuzz @@
