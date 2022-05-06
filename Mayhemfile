@@ -1,0 +1,6 @@
+image: pedbap/cute_headers_fuzz
+project: cute_headers
+target: cute_headers_fuzz
+cmds:
+  - cmd: /loadpng_fuzz @@
+    afl: true
